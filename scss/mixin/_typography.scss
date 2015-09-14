@@ -1,0 +1,36 @@
+// -------------------
+// base size : 12px, from px to rem
+
+@function calculateRem($size) {
+  $remSize: $size / 10px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+
+// -------------------
+// headings template
+
+@mixin h1 {
+
+	&:hover {
+
+	}
+}
+
+// modify color & background of highlighted text
+
+@mixin highlightText( $color, $background ) {
+	::-moz-selection { /* Code for Firefox */
+	    color: $color;
+	    background: $background;
+	}
+	::selection {
+	    color: $color;
+	    background: $background;
+	}
+}

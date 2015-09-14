@@ -1,0 +1,9 @@
+// SassySASS project init
+
+@import "mixin/typography";
+@import "mixin/effects";
+
+h1 {
+	@include font-size( 30px );
+	@include calcProp( margin-top, 20px );
+}
