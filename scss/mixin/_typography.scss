@@ -14,13 +14,15 @@
 
 // -------------------
 // headings template
+// use @extend to use this
 
-@mixin h1 {
-
+@mixin heading {
+	font-family: $default_font;
 	&:hover {
 
 	}
 }
+
 
 // modify color & background of highlighted text
 
