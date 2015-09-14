@@ -5,5 +5,4 @@
 
 h1 {
 	@include font-size( 30px );
-	@include calcProp( margin-top, 20px );
 }
