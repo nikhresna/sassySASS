@@ -3,6 +3,9 @@
 @import "mixin/typography";
 @import "mixin/effects";
 
+@import "plugin-reset/formidable";
+@import "plugin-reset/vc";
+
 h1 {
 	@include font-size( 30px );
 }
