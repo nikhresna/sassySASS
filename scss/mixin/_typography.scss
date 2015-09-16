@@ -17,7 +17,9 @@
 // use @extend to use this
 
 @mixin heading {
-	font-family: $default_font;
+	font: {
+			family: $heading_font;
+		}
 	&:hover {
 
 	}
