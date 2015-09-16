@@ -12,20 +12,6 @@
 }
 
 
-// -------------------
-// headings template
-// use @extend to use this
-
-@mixin heading {
-	font: {
-			family: $heading_font;
-		}
-	&:hover {
-
-	}
-}
-
-
 // modify color & background of highlighted text
 
 @mixin highlightText( $color, $background ) {

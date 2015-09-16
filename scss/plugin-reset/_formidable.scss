@@ -1,7 +1,9 @@
 // this start from the fieldset right through the textarea or input or else
 // refer to input/textarea/checkbox/etc individually to style each of dem
-.frm_style_formidable-style.with_frm_style fieldset {
-	$your_custom_class {
+
+//.frm_style_formidable-style.with_frm_style fieldset {
+%form {
+	.your_custom_class {
 		margin-bottom: 5px;
 		input,
 		textarea {
@@ -19,7 +21,8 @@
 }
 
 // customize button
-.frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_form_submit_style, .frm_style_formidable-style.with_frm_style.frm_login_form input[type=submit] {
+// .frm_style_formidable-style.with_frm_style input[type=submit], .frm_style_formidable-style.with_frm_style .frm_submit input[type=button], .frm_form_submit_style, .frm_style_formidable-style.with_frm_style.frm_login_form input[type=submit] {
+%form-button {
 	border: 2px solid $black;
 	background: transparent;
 	color: $black;
