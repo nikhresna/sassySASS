@@ -1,0 +1,9 @@
+@mixin prefix( $property, $args, $default : true ) {
+	$vendors : webkit moz o;
+	@each $vendor in $vendors {
+		#{ "-" + $vendor + "-" + $property }: #{ $args };
+	}
+	@if $default {
+		#{ $property } : #{ $args }
+	}
+}
