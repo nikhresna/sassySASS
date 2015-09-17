@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAcA,EAAG;ECLD,SAAS,EDMU,IAAI;ECLvB,SAAS,EAAE,IAAmB;ECP9B,qBAAoC,EAAE,GAAU;EAAhD,kBAAoC,EAAE,GAAU;EAAhD,gBAAoC,EAAE,GAAU;EAGhD,aAAc,EAAG,GAClB",
+"mappings": "AAcA,EAAG;ECLD,SAAS,EDMU,IAAI;ECLvB,SAAS,EAAE,IAAmB;ECU9B,aAAc,EAAG,GAClB;EAPG,OAAK;IAEN,qBAAoC,EAAE,GAAU;IAAhD,kBAAoC,EAAE,GAAU;IAAhD,gBAAoC,EAAE,GAAU",
 "sources": ["scss/style.scss","scss/mixin/_typography.scss","scss/mixin/_vendor-prefix.scss"],
 "names": [],
 "file": "style.css"
