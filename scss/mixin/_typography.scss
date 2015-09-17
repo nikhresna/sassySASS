@@ -11,7 +11,7 @@
   font-size: calculateRem($size);
 }
 
-
+// ----------------------
 // modify color & background of highlighted text
 
 @mixin highlightText( $color, $background ) {
