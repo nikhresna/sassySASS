@@ -1,0 +1,21 @@
+// SassySASS project init
+@import "variables/colors";
+@import "variables/logocolors";
+@import "variables/typography-variables";
+
+@import "mixin/typography";
+@import "mixin/effects";
+@import "mixin/aurror";
+@import "mixin/vendor-prefix";
+@import "mixin/misc";
+@import "mixin/button";
+
+@import "plugin-mods/formidable";
+@import "plugin-mods/vc";
+
+
+h1 {
+	@include font-size( 30px );
+	@include prefix( border-radius, 5px );
+	@include rem-size( margin-top, 30px );
+}
