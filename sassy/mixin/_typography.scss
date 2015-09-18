@@ -2,13 +2,13 @@
 // base size : 12px, from px to rem
 
 @function calculateRem($size) {
-  $remSize: $size / 10px;
-  @return $remSize * 1rem;
+	$remSize: $size / 10px;
+	@return $remSize * 1rem;
 }
 
 @mixin fontSize($size) {
-  font-size: $size;
-  font-size: calculateRem($size);
+	font-size: $size;
+	font-size: calculateRem($size);
 }
 
 // ----------------------
@@ -22,5 +22,19 @@
 	::selection {
 	    color: $color;
 	    background: $background;
+	}
+}
+
+// -------------------
+// headings template
+// use @extend to use this
+%heading {
+	font: {
+			family: $heading-font;
+			weight: $heading-weight;
+		}
+	&:hover {
+		content: '';
+		position: absolute;
 	}
 }
