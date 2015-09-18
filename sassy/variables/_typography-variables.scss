@@ -1,17 +1,17 @@
 //font families
-$heading_font : somethin;
-$heading_font_secondary : somethin;
-$heading_font_tertiary : somethin;
+$heading-font : somethin;
+$heading-font-secondary : somethin;
+$heading-font-tertiary : somethin;
 
-$heading_weight : somethin;
+$heading-weight : somethin;
 
 // -------------------
 // headings template
 // use @extend to use this
 %heading {
 	font: {
-			family: $heading_font;
-			weight: $heading_weight;
+			family: $heading-font;
+			weight: $heading-weight;
 		}
 	&:hover {
 		content: '';

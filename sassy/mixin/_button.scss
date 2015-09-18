@@ -1,4 +1,4 @@
-@mixin ghost-button( $font, $font-size, $font-color, $border-size, $border-color, $padding, $transition-speed, $hover-color ) {
+@mixin ghostButton( $font, $font-size, $font-color, $border-size, $border-color, $padding, $transition-speed, $hover-color ) {
 	display:inline-block;
 	text-decoration:none;
 	text-transform:uppercase;

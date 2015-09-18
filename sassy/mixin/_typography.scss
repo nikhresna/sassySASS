@@ -6,7 +6,7 @@
   @return $remSize * 1rem;
 }
 
-@mixin font-size($size) {
+@mixin fontSize($size) {
   font-size: $size;
   font-size: calculateRem($size);
 }
@@ -15,7 +15,7 @@
 // modify color & background of highlighted text
 
 @mixin highlightText( $color, $background ) {
-	::-moz-selection { /* Code for Firefox */
+	::-moz-selection { 
 	    color: $color;
 	    background: $background;
 	}

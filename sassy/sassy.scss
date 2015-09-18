@@ -1,4 +1,6 @@
 // SassySASS project init
+
+
 @import "variables/colors";
 @import "variables/logocolors";
 @import "variables/typography-variables";
@@ -15,7 +17,7 @@
 
 
 h1 {
-	@include font-size( 30px );
+	@include fontSize( 30px );
 	@include prefix( border-radius, 5px );
-	@include rem-size( margin-top, 30px );
+	@include remSize( margin-top, 30px );
 }

@@ -13,7 +13,7 @@
 
 // ---------------------
 // convert px to rem with px fallback
-@mixin rem-size( $property, $size ) {
+@mixin remSize( $property, $size ) {
 	#{ $property } : $size;
 	#{ $property } : calculateRem($size);
 }
