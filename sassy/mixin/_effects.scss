@@ -1,12 +1,12 @@
 // ----------------------
-// transition mixer
+// transition/transform mixer
 
-@mixin transition( $args... ) {
-	-webkit-transition: $args;
-	-moz-transition: $args;
-	-ms-transition: $args;
-	-o-transition: $args;
-	transition: $args;
+@mixin effect( $effect, $args... ) {
+	-webkit-#{$effect}: $args;
+	-moz-#{$effect}: $args;
+	-ms-#{$effect}: $args;
+	-o-#{$effect}: $args;
+	#{$effect}: $args;
 }
 
 // box-shadow mixin

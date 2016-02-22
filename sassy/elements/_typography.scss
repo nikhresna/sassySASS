@@ -1,0 +1,24 @@
+$color-stack:
+	(id: white, color: #fff),
+	(id: black, color: #000);
+
+@each $color in $color-stack {
+	$id: map-get($color, id);
+
+	$color: map-get($color, color);
+
+	.#{ "" + $id } {
+		color: $color;
+	}
+}
+
+@mixin fontColor($id){
+	@each $color in $color-stack {
+		$col: map-get($color, color);
+
+	    @if( $id == map-get($color, id) ) {
+	      color: $col;
+	      @debug $col;
+	    }
+	}
+}
